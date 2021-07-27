@@ -87,11 +87,11 @@ public class MemoryMapApp extends Application {
     }
 
     private void setDefaultValues() {
-        totalMemoryInput.setText("32");
-        romInput.setText("4");
-        ramInput.setText("4");
+        totalMemoryInput.setText("1024");
+        romInput.setText("128");
+        ramInput.setText("512");
         flashMemoryInput.setText("0");
-        numberOfIoDevicesInput.setText("0");
+        numberOfIoDevicesInput.setText("3");
     }
 
     /**
