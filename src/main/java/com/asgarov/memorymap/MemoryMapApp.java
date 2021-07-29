@@ -20,7 +20,7 @@ import static com.asgarov.memorymap.util.Formatter.*;
 import static com.asgarov.memorymap.util.UiUtil.*;
 
 public class MemoryMapApp extends Application {
-    public static final String DEFAULT_TEXT = "Please provide your inputs in K (so instead of 32K just input 32)";
+    public static final String DEFAULT_TEXT = "Please provide your inputs in kilobytes (for 1 MB input 1024)";
 
     private final VBox root = new VBox(20);
     private final TextArea mainTextArea = createNonEditableTextArea(360, 40, DEFAULT_TEXT);
